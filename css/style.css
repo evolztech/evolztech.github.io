@@ -1,0 +1,512 @@
+/* CSS Starts Here */
+/* Home Page CSS Starts Here */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bold{
+	font-weight: 700;
+}
+.text-black{
+	color: #000;
+	font-weight: 700;
+}
+.underline{
+	text-decoration: underline;
+}
+/*.custom_nav{
+	width: 100%;
+	position:sticky;
+	top: 0px;
+	z-index: 999;
+	background: rgba(0,0,0,0.8);
+}*/
+
+/*Portfolio Section*/
+#Portfolio {
+  font-size: 15pt;
+  background: #ffb523;
+  overflow: hidden;
+}
+.portfolio-text-color{
+  color: #222629;
+}
+
+.vh-25 {
+  height: 25vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.vh-66 {
+  height: 66.67vh;
+}
+
+.vh-84 {
+  /*height: 84.34vh;*/
+  height: 82vh;
+}
+
+.w-33 {
+  width: 33.33%;
+}
+
+.c {
+  display: relative;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  width: 100%!important;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.ci {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30%;
+  width: 90%;
+  font-size: 18pt;
+}
+
+.cif {
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+}
+
+.cifi {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.cifc {
+  display: block;
+  visibility: hidden;
+  background: transparent;
+  width: 100%;
+}
+
+.cifcp {
+  font-size: 0.8em;
+  letter-spacing: 3px;
+  font-weight: normal;
+  color: black;
+  line-height: 120%;
+  text-align: left;
+  margin: auto 12px;
+}
+
+.content_center{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+.custm_color{
+	background-color: aqua;
+	color: #000;
+	font-weight: 700;
+}
+.my_circle{
+	width: 140px;
+	height: 140px;
+	border: 5px solid #fff;
+	margin: 0 auto;
+	border-radius: 100%;
+}
+.ft{
+    display:flex;
+    text-align: center;
+}
+.ft-sec{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#ffb523;
+    color:#fff;
+}
+.bdr-1{
+	border: 2px solid #fff;
+}
+.dnone{
+	display: none;
+}
+::placeholder{
+	color: #071f47;
+}
+.black_color{
+	color: #000;
+}
+.silver_color{
+	color: #D3D3D3;
+}
+.medium_font{
+	font-weight: 500;
+	font-size: 17px;
+}
+.custm_font{
+	letter-spacing: 3px;
+}
+.img-rounded{
+	border-radius: 50%!important;
+}
+.custm_grey{
+	color: #DCDCDC;
+}
+.vh_100{
+	height: 100vh;
+}
+.mx-1100{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.w-300{
+	width: 300px;
+}
+.navbar-nav .homeSection{
+	color: #000!important;
+}
+.Site_Navbar{
+	background: url('../images/Home_background.png');
+	background-repeat: no-repeat;
+	background-size: 65% 100%;
+	letter-spacing: 1px;
+	min-height: 625px;
+}
+.nav-link:hover{
+	font-weight: bold;
+}
+.navbar-brand{
+	letter-spacing: 5px;
+}
+#HomePage{
+	width: 100%;
+	background-color: #222629;
+	font-family: 'Ubuntu', sans-serif;
+}
+.ubuntu_font{
+	font-family: 'Ubuntu', sans-serif;
+}
+.nav-link{
+	color: #fff!important;
+}
+.nav-link:hover{
+	color: #585858;
+}
+
+.mobnav{
+	position: fixed;
+	bottom: 0px;
+	z-index: 9;
+}
+.mobicon{
+	font-size: 1.8em;
+	cursor: pointer;
+	color: #ECF0F1;
+}
+.mobcloseicon{
+	font-size: 1.8em;
+	cursor: pointer;
+	color: #ECF0F1;
+	display: none;
+}
+.mobmenu{
+	background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+	width: 100%;
+	height: 100%;
+	bottom: 0px;
+	position: fixed;
+	z-index: 99;
+	display: none;
+}
+.mobmenu_content{
+	color: #fff;
+	font-size: 2em;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mob_img{
+	height: 100vh;
+	width: 100%;
+}
+.fa-bars{
+	color: #000;
+	position: relative;
+}
+.fa-close{
+	color: #000;
+	position: relative;
+	font-size: 35px;
+}
+.bt-1{
+	border-top: 2px solid #fff;
+}
+/* CSS for animations goes here */
+
+.first_sub_head{
+	opacity: 0;
+}
+.second_sub_head{
+	opacity: 0;
+	text-align: center;
+}
+@media screen and (min-width:1025px){
+	.ml-300{
+		margin-left:250px;
+	}
+}
+/* CSS for animation ends here */
+
+/* Home Page CSS Ends Here */
+
+/* Our Team CSS Starts here */
+#OurTeam h1{
+    font-weight:bold;
+    text-align:center;
+
+}
+#OurTeam h1:after{
+    content:'';
+    width: 150px;
+    background-color:#ffb523;
+    height:5px;
+    margin:10px auto;
+    display:block;
+
+}
+.team{
+    margin-top: 40px;
+}
+.profile-box .img-sec{
+    opacity:1;
+    display: block;
+    position:relative;
+   
+}
+.img-sec img{
+/*     border-radius: 140px; */
+/*     border: 0.5px solid black; */
+}
+.profile-box h2{
+    font-size:24px;
+    font-weight:bold;
+    padding-top: 20px;
+}
+.profile-box h3{
+    font-size:18px;
+    font-weight:bold;
+    padding-top: 5px;
+    
+}
+.img-sec ul li{
+    display:inline-block;
+    
+} .img-sec ul{ position:absolute; z-index: 1; margin:0; padding:20px 0px;
+bottom:0; left:50%; transform: translate(-50%); display: block; opacity:0;
+margin-bottom:20px; } .img-sec:after{  content:''; position: absolute;
+background: rgba(0, 0, 0, 0.5); backdrop-filter:blur(4px); box-shadow: 8px 8px
+8px #585858; border-radius: 50%; height: 100%; width: 100%; top: 0px; left:
+0px; opacity:0; transition:0.5s; } .img-sec ul li i{ font-size:25px; padding:
+5px; color:#E74C3C; } .img-sec:hover:after{ opacity:1; } .img-sec:hover ul{
+opacity:1; } .instagram{ height: 22px; width: 22px; margin-top: -20%; } /* Our
+Team CSS Ends here */ .text-light{ font-weight: 300; } /* Contact Us CSS
+Starts Here */ #contactUs{ background-color: #222629; color: #fff; }
+#contactUs h1{ color: #ffb523; } .mailto_link{ color: #fff; text-decoration:
+none; } .telto_link{ color: #fff; text-decoration: none; }
+.mailto_container:hover a{ color: #fff; text-decoration: none; border-radius:
+5px; background-color: #ffb523; padding: 8px; width: min-content; }
+.callto_container:hover a{ color: #fff; text-decoration: none; border-radius:
+5px; background-color: #ffb523; padding: 8px; width: min-content; }
+.form_container{ padding: 30px; /* box-shadow: 4px 8px 18px #D3D3D3; */ }
+.custm_input{ background-color: #fff; border-radius: 10px; border: 0px; color:
+#071f47; padding: 10px; font-size: 18px; line-height: 26px; }
+.custm_input:focus{ border: 0px; outline: none; } .form_btn{ padding: 10px
+20px; color: #222629; background: #ffb523; border:0px; cursor: pointer;
+border-radius: 5px; letter-spacing: 1px; font-size: 18px; font-weight: 500;
+text-decoration: none; } .form_btn:hover{ color: #071f47; text-decoration:
+none; background-color: #fff; } .font_awsm_container_fb:hover{ width: 50px;
+height: 50px; background-color: #fff; border-radius: 25%; color: #3b5998;
+cursor: pointer; } .font_awsm_container_tw:hover{ width: 50px; height: 50px;
+background-color: #fff; border-radius: 25%; color: #00acee; cursor: pointer; }
+.font_awsm_container_in:hover{ width: 50px; height: 50px; background-color:
+#fff; border-radius: 25%; color: #cd486b; cursor: pointer; }
+.font_awsm_container_li:hover{ width: 50px; height: 50px; background-color:
+#fff; border-radius: 25%; color: #0e76a8; cursor: pointer; }
+.font_awsm_container_fb,.font_awsm_container_li,.font_awsm_container_in,.font_awsm_container_tw{
+width: 50px; height: 50px; color: #000; } .font_awsm_position{ position:
+absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
+0.5rem!important; } /* Contact Us CSS Ends Here */
+
+/* Services CSS Starts here */
+#Services{
+	background-color: #222629;
+	color: #fff;
+}
+#Services h1:after{
+    content:'';
+    width: 150px;
+    background-color:#ffb523;
+    height:5px;
+    margin:10px auto;
+    display:block;
+}
+#Portfolio h1:after{
+    content:'';
+    width: auto;
+    background-color:#222629;
+    height:5px;
+    margin:10px auto;
+    display:block;
+}
+.services_border{
+	height: 250px;
+	max-height: 250px;
+	cursor: pointer;
+	background-color: transparent;
+	perspective: 1000px;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.services_border:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front{
+	padding: 54px 15px;
+}
+
+.flip-card-front .fa-2x{
+	padding-left: 8px;
+}
+
+.flip-card-front-text{
+	padding: 8px 0px;
+}
+
+.flip-card-back {
+  background-color: #ffb523;
+  color: #000;
+  transform: rotateY(-180deg);
+  border-radius: 8px;
+  padding: 15px 10px;
+  font-weight: 600;
+}
+
+/*Portfolio Media Queries*/
+@media only screen and (min-width: 576px) {
+  .ci {
+    height: 30%;
+    width: 55%;
+    font-size: 14pt;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ci {
+    height: 30%;
+    width: 40%;
+    font-size: 14pt;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .ci {
+    height: 31%;
+    width: 25%;
+    font-size: 18pt;
+  }
+
+}
+
+
+
+@media screen and (max-width: 346px){
+	.img-responsive{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px){
+	.img-sec:after{
+		content: '';
+		position: absolute;
+		background: rgba(0, 0, 0, 0.8);
+		border-radius: 50%;
+		height: 100%;
+		width: 100%;
+		top: 0px;
+		left: 50%;
+		transform: translate(-50%,0);
+		opacity: 0;
+		transition: 0.5s;
+	}
+	.my_circle{
+		width: 80px!important;
+		height: 80px!important;
+	}
+	.form_container{
+		padding: 30px 10px!important;
+	}
+  	.nav-link{
+    	padding: .5rem 0rem!important;
+  	}
+  	.ft{
+  	    display:block;
+  	}
+  	.ft div{
+  	    padding-bottom:20px;
+  	}
+  	.ft-sec{	
+  	    padding-top: 50px;
+  	    padding-bottom:30px;
+  	}
+  	.mw-100{
+  		width: 100%!important;
+  		height: auto;
+  	}
+  	.m-text-center{
+		text-align: center!important;
+    }
+}
+
+
+@media screen and (max-width:480px){
+	.Site_Navbar{
+	background: url('../images/Mobile_BG.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	letter-spacing: 1px;
+	height: 100vh;
+}
+}

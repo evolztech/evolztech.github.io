@@ -1,0 +1,178 @@
+/* Font sizes Desktop css starts here */
+.small{
+	font-size: 14px;
+}
+.fs14{
+	font-size: 14px;
+}
+.fs15{
+	font-size: 15px;
+}
+.fs17{
+	font-size: 17px;
+}
+.fs18{
+	font-size: 18px;
+}
+.fs19{
+	font-size: 19px;
+}
+.fs20{
+	font-size: 20px;
+}
+.fs21{
+	font-size: 21px;
+}
+.fs23{
+	font-size: 23px;
+}
+.fs24{
+	font-size: 24px;
+}
+.fs25{
+	font-size: 25px;
+}
+.fs30{
+	font-size: 30px;
+}
+.fs35{
+	font-size: 35px;
+}
+.fs40{
+	font-size: 40px;
+}
+.fs50{
+	font-size: 50px;
+}
+.fs60{
+	font-size: 60px;
+}
+
+/* Font Size for Desktop ends here */
+
+
+/* Line Height for Desktop Starts here */
+.lh16{
+	line-height: 16px;
+}
+.lh20{
+	line-height: 20px;
+}
+.lh21{
+	line-height: 21px;
+}
+.lh24{
+	line-height: 24px;
+}
+.lh26{
+	line-height: 26px;
+}
+.lh27{
+	line-height: 27px;
+}
+.lh28{
+	line-height: 28px;
+}
+.lh29{
+	line-height: 29px;
+}
+.lh30{
+	line-height: 30px;
+}
+.lh31{
+	line-height: 31px;
+}
+.lh32{
+	line-height: 32px;
+}
+.lh36{
+	line-height: 36px;
+}
+.lh41{
+	line-height: 41px;
+}
+.lh46{
+	line-height: 46px;
+}
+.lh56{
+	line-height: 56px;
+}
+.lh65{
+	line-height: 65px;
+}
+
+/* Line Height Desktop CSS ends here */
+
+/* Mobile font sizes goes here */
+
+@media screen and (max-width: 767px){
+	/* Mobile font sizes start here */
+	.m-fs10{
+		font-size: 10px;
+	}
+	.m-fs17{
+		font-size: 17px;
+	}
+	.m-fs18{
+		font-size: 18px;
+	}
+	.m-fs19{
+		font-size: 19px;
+	}
+	.m-fs20{
+		font-size: 20px;
+	}
+	.m-fs23{
+		font-size: 23px;
+	}
+	.m-fs24{
+		font-size: 24px;
+	}
+	.m-fs25{
+		font-size: 25px;
+	}
+	.m-fs30{
+		font-size: 30px;
+	}
+	.m-fs40{
+		font-size: 40px;
+	}
+	.m-fs45{
+		font-size: 45px;
+	}
+    /* Mobile font sizes ends here */
+
+	/* Mobile line height starts here */
+
+	.m-lh16{
+		line-height: 16px;
+	}
+	.m-lh24{
+		line-height: 24px;
+	}
+	.m-lh26{
+		line-height: 26px;
+	}
+	.m-lh27{
+		line-height: 27px;
+	}
+	.m-lh30{
+		line-height: 30px;
+	}
+	.m-lh31{
+		line-height: 31px;
+	}
+	.m-lh36{
+		line-height: 36px;
+	}
+	.m-lh46{
+		line-height: 46px;
+	}
+	.m-lh51{
+		line-height: 51px;
+	}
+	.m-text-center{
+ 		text-align: center!important;
+    }
+}
+	/* Mobile line height ends here */
