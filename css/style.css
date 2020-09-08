@@ -15,6 +15,17 @@
 .underline{
 	text-decoration: underline;
 }
+span.ft-text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 8px;
+    letter-spacing: 5px;
+}
+.ft-logo{
+  margin-top: 8px;
+}
 /*.custom_nav{
 	width: 100%;
 	position:sticky;
