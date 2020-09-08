@@ -595,6 +595,17 @@ function getFactor(ciTop, ch, mid) {
   }
 }
 
+const top_scr = document.querySelector(".top-scr");
+
+window.addEventListener("scroll", () => {
+  if(window.pageYOffset > 100){
+    top_scr.classList.add("active");
+  }
+  else{
+    top_scr.classList.remove("active");
+  }
+})
+
 
 
 
