@@ -37,7 +37,7 @@ span.ft-text {
 /*Portfolio Section*/
 #Portfolio {
   font-size: 15pt;
-  background: #ffb523;
+  background: #fff;
   overflow: hidden;
 }
 .portfolio-text-color{
@@ -63,6 +63,7 @@ span.ft-text {
 .vh-84 {
   /*height: 84.34vh;*/
   height: 82vh;
+  background: #ffb523!important;
 }
 
 .w-33 {
@@ -376,7 +377,7 @@ absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 #Portfolio h1:after{
     content:'';
     width: auto;
-    background-color:#222629;
+    background-color:#ffb523;
     height:5px;
     margin:10px auto;
     display:block;
