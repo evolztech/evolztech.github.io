@@ -5,6 +5,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 .bold{
 	font-weight: 700;
 }
@@ -25,6 +28,31 @@ span.ft-text {
 }
 .ft-logo{
   margin-top: 8px;
+}
+.top-scr{
+    background: #dcebef;
+    color:#000;
+    position: fixed;
+    bottom: 40px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    opacity:0;
+    pointer-events: none;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+.top-scr:hover{
+    text-decoration: none;
+    color:#000;
+}
+.top-scr.active{
+  pointer-events: auto;
+  opacity:1;
 }
 /*.custom_nav{
 	width: 100%;
@@ -520,5 +548,11 @@ absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 	background-size: cover;
 	letter-spacing: 1px;
 	height: 100vh;
+}
+}
+
+@media screen and (max-width:991px){
+.top-scr{
+  display: none;
 }
 }
