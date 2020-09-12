@@ -270,11 +270,59 @@ window.addEventListener("load", function() {
       organization : document.querySelector("#organization").value,
       message_html : document.querySelector("#message_html").value
     };
+    var truth = [];
+    truth[0] = contactObj.from_name.length == 0;
+    truth[1] = contactObj.organization.length == 0;
+    truth[2] = contactObj.message_html.length == 0;
+    truth[3] = checkemail(contactObj.email_add);
+
+    if(truth[0] || truth[1] || truth[2] || truth[3] ){
+      var msgg = "";
+      for(var s = 0; s<4; s++){
+        if(truth[s] == true){
+
+          switch (s) {
+            case 0:
+              msgg = msgg + "Please Insert Valid Name";
+              break;
+            case 1:
+              msgg = msgg + "<br>Please Insert Valid Organization";
+              break;
+            case 2:
+              msgg = msgg + "<br>Please Insert Valid Message";
+              break;
+            case 3:
+              msgg = msgg + "<br>Please Insert Valid Email Address";
+              break;
+            default:
+              // statements_def
+              break;
+          }
+        }
+      }
+      document.querySelector("#ModalFailedMsg").innerHTML = msgg;
+      $('#failedModal').modal('show');
+    }else{
      emailjs.send('gmail', 'evolzEmail', contactObj).then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+
+       $('#successModal').modal('show');
+
      }, function(error) {
        console.log('FAILED...', error);
+      $('#ModalFailedMsg').innerHTML = "Sorry for the inconvenience";
+       $('#failedModal').modal('show');
      });
+    }
+
+    function checkemail(em){
+      var i = em.indexOf("@");
+      var j = em.lastIndexOf(".");
+      if(i>0 && j>(i+1)){
+        return false;
+      }
+      return true;
+    }
   });
 });
 

@@ -21,8 +21,8 @@
                      <nav class="navbar smart-scroll navbar-expand-lg custom_nav navbar-dark mx-1100">
                         <a class="navbar-brand pl-3 pl-md-0" href="#">
                           <div class="row">
-                            <img src="images/evolz_logo.png">
-                            <div class="bold px-2">EVOLZ</div>
+                            <!--img src="images/evolz_logo.png"-->
+                            <div class="bold px-2" style="letter-spacing: 10px!important; font-weight: bolder;">EVOLZ</div>
                           </div>
                         </a>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -572,8 +572,9 @@
                            <input type="email" id="email_add" name="Email" placeholder="E-mail" class="w-100 custm_input mb-3 uemail" required>
                            <input type="organization" id="organization" name="organization" placeholder="Organization (If Any)" class="w-100 custm_input mb-3 ucompany" required>
                            <textarea class="w-100 custm_input mb-4 udesc" rows="3" cols="50" id="message_html" name="Message" placeholder="Project Description" required></textarea> 
-                           <button type="submit" id="contactForma" data-toggle="modal" data-target="#successModal" class="form_btn">Send Over</button> 
-                       </form>  
+                           <button type="submit" id="contactForma" class="form_btn">Send Over</button> 
+                       </form> 
+                       <!-- data-toggle="modal" data-target="#successModal"  --> 
                      </div>
                   </div>
                 </div>
@@ -582,7 +583,7 @@
           <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="ModalSuccess" aria-hidden="true">
           <div class="modal-dialog  modal-dialog-centered" role="document">
             <div class="modal-content">
-              <div class="modal-header bg-success">
+              <div class="modal-header bg1">
                 <h5 class="modal-title" id="exampleModalLabel">Thank You!</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
@@ -592,7 +593,24 @@
                 We have received your message successfully.
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Okay</button>
+                <button type="button" class="btn bg1" style="color: #fff!important;" data-dismiss="modal">Okay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="failedModal" tabindex="-1" role="dialog" aria-labelledby="ModalFailed" aria-hidden="true">
+          <div class="modal-dialog  modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header bg-danger">
+                <h5 class="modal-title" id="exampleModalLabel">Something Went Wrong</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-dark" id="ModalFailedMsg">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn bg-danger" style="color: #fff!important;" data-dismiss="modal">Okay</button>
               </div>
             </div>
           </div>
@@ -603,7 +621,7 @@
     <div class="container">  
       <div class="row no-gutters">
         <div class="col-md-4 align-self-center order-lg-1 order-3 m-text-center py-3 py-lg-0 fs20 lh26 text-black">All rights Reserved by EvolzTech &copy; 2020</div>
-        <div class="col-md-4 order-2 text-center py-3 py-lg-0 ft-logo"><img src="images/evolz_logo.png"><span class="ft-text">EVOLZ</div>
+        <div class="col-md-4 order-2 text-center py-3 py-lg-0 ft-logo"><!--img src="images/evolz_logo.png"--><span class="ft-text" style="letter-spacing: 10px!important;">EVOLZ</div>
         <div class="col-md-4 text-center align-self-center order-lg-3 order-1 py-3 py-lg-0">
            <div class="row fs25 lh26 mb-md-0 m-text-center text-left">
              <div class="col-3">

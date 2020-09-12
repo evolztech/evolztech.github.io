@@ -18,6 +18,12 @@ html{
 .underline{
 	text-decoration: underline;
 }
+.bg1{
+  background-color: #ffb523!important;
+}
+.c1{
+  color: #ffb523!important;
+}
 span.ft-text {
     font-size: 20px;
     font-weight: bold;
@@ -66,7 +72,7 @@ span.ft-text {
 /*Portfolio Section*/
 #Portfolio {
   font-size: 15pt;
-  background: #fff;
+  background: #ffb523;
   overflow: hidden;
 }
 .portfolio-text-color{
@@ -92,7 +98,7 @@ span.ft-text {
 .vh-84 {
   /*height: 84.34vh;*/
   height: 82vh;
-  background: #ffb523!important;
+  background: #fff/*#ffb523!important;*/
 }
 
 .w-33 {
@@ -101,7 +107,7 @@ span.ft-text {
 
 .c {
   display: relative;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   width: 100%!important;
   overflow: hidden;
@@ -219,7 +225,7 @@ span.ft-text {
 .Site_Navbar{
 	background: url('../images/Home_background.png');
 	background-repeat: no-repeat;
-	background-size: 65% 100%;
+	background-size: 65% 90%;
 	letter-spacing: 1px;
 	min-height: 625px;
 }
@@ -354,7 +360,7 @@ span.ft-text {
 .img-sec ul li{
     display:inline-block;
     
-} .img-sec ul{ position:absolute; z-index: 1; margin:0; padding:20px 0px;
+} /*.img-sec ul{ position:absolute; z-index: 1; margin:0; padding:20px 0px;
 bottom:0; left:50%; transform: translate(-50%); display: block; opacity:0;
 margin-bottom:20px; } .img-sec:after{  content:''; position: absolute;
 background: rgba(0, 0, 0, 0.5); backdrop-filter:blur(8px); box-shadow: 8px 8px
@@ -362,22 +368,22 @@ background: rgba(0, 0, 0, 0.5); backdrop-filter:blur(8px); box-shadow: 8px 8px
 0px; opacity:0; transition:0.5s; } .img-sec ul li i{ font-size:25px; padding:
 5px; color:#fff; } .img-sec:hover:after{ opacity:1; } .img-sec:hover ul{
 opacity:1; } .instagram{ height: 22px; width: 22px; margin-top: -20%; } /* Our
-Team CSS Ends here */ .text-light{ font-weight: 300; } /* Contact Us CSS
-Starts Here */ #contactUs{ background-color: #222629; color: #fff; }
-#contactUs h1{ color: #ffb523; } .mailto_link{ color: #fff; text-decoration:
+Team CSS Ends here *//* .text-light{ font-weight: 300; } /* Contact Us CSS
+Starts Here */ /*#contactUs{ background-color: #222629; color: #fff; }
+#contactUs h1{ color: #fff; } .mailto_link{ color: #fff; text-decoration:
 none; } .telto_link{ color: #fff; text-decoration: none; }
 .mailto_container:hover a{ color: #fff; text-decoration: none; border-radius:
 5px; background-color: #ffb523; padding: 8px; width: min-content; }
 .callto_container:hover a{ color: #fff; text-decoration: none; border-radius:
 5px; background-color: #ffb523; padding: 8px; width: min-content; }
-.form_container{ padding: 30px; /* box-shadow: 4px 8px 18px #D3D3D3; */ }
+.form_container{ padding: 30px; /* box-shadow: 4px 8px 18px #D3D3D3; *//* }
 .custm_input{ background-color: #fff; border-radius: 10px; border: 0px; color:
 #071f47; padding: 10px; font-size: 18px; line-height: 26px; }
 .custm_input:focus{ border: 0px; outline: none; } .form_btn{ padding: 10px
-20px; color: #222629; background: #ffb523; border:0px; cursor: pointer;
+20px; color: #222629; background: #fff; border:0px; cursor: pointer;
 border-radius: 5px; letter-spacing: 1px; font-size: 18px; font-weight: 500;
-text-decoration: none; } .form_btn:hover{ color: #071f47; text-decoration:
-none; background-color: #fff; } .font_awsm_container_fb:hover{ width: 50px;
+text-decoration: none; } .form_btn:hover{ color: #fff; background-color: #ffb523; text-decoration:
+none; } .font_awsm_container_fb:hover{ width: 50px;
 height: 50px; background-color: #fff; border-radius: 25%; color: #3b5998;
 cursor: pointer; } .font_awsm_container_tw:hover{ width: 50px; height: 50px;
 background-color: #fff; border-radius: 25%; color: #00acee; cursor: pointer; }
@@ -389,6 +395,197 @@ background-color: #fff; border-radius: 25%; color: #00acee; cursor: pointer; }
 width: 50px; height: 50px; color: #000; } .font_awsm_position{ position:
 absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 0.5rem!important; } /* Contact Us CSS Ends Here */
+.img-sec ul {
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 20px 0px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: block;
+  opacity: 0;
+  margin-bottom: 20px;
+}
+
+.img-sec:after {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  /*box-shadow: 8px 8px 8px #585858;*/
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.img-sec ul li i {
+  font-size: 25px;
+  padding: 5px;
+  color: #fff;
+}
+
+.img-sec:hover:after {
+  opacity: 1;
+}
+
+.img-sec:hover ul {
+  opacity: 1;
+}
+
+.instagram {
+  height: 22px;
+  width: 22px;
+  margin-top: -20%;
+}
+
+
+/* Our
+Team CSS Ends here */
+
+.text-light {
+  font-weight: 300;
+}
+
+
+/* Contact Us CSS
+Starts Here */
+
+#contactUs {
+  background-color: #222629;
+  color: #fff;
+}
+
+#contactUs h1 {
+  color: #ffb523;
+}
+
+.mailto_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.telto_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mailto_container:hover a {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #ffb523;
+  padding: 8px;
+  width: min-content;
+}
+
+.callto_container:hover a {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #ffb523;
+  padding: 8px;
+  width: min-content;
+}
+
+.form_container {
+  padding: 30px;
+  /* box-shadow: 4px 8px 18px #D3D3D3; */
+}
+
+.custm_input {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0px;
+  color: #071f47;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.custm_input:focus {
+  border: 0px;
+  outline: none;
+}
+
+.form_btn {
+  padding: 10px 20px;
+  color: #222629;
+  background: #fff;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.form_btn:hover {
+  color: #fff;
+  background-color: #ffb523;
+  text-decoration: none;
+}
+
+.font_awsm_container_fb:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25%;
+  color: #3b5998;
+  cursor: pointer;
+}
+
+.font_awsm_container_tw:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25%;
+  color: #00acee;
+  cursor: pointer;
+}
+
+.font_awsm_container_in:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25%;
+  color: #cd486b;
+  cursor: pointer;
+}
+
+.font_awsm_container_li:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25%;
+  color: #0e76a8;
+  cursor: pointer;
+}
+
+.font_awsm_container_fb,
+.font_awsm_container_li,
+.font_awsm_container_in,
+.font_awsm_container_tw {
+  width: 50px;
+  height: 50px;
+  color: #000;
+}
+
+.font_awsm_position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 0.5rem!important;
+}
+
+
+/* Contact Us CSS Ends Here */
 
 /* Services CSS Starts here */
 #Services{
@@ -406,7 +603,7 @@ absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 #Portfolio h1:after{
     content:'';
     width: auto;
-    background-color:#ffb523;
+    background-color:#000;
     height:5px;
     margin:10px auto;
     display:block;
@@ -421,7 +618,7 @@ absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
-  border: 2px solid #fff;
+  border: 0px solid #fff;
   border-radius: 10px;
   width: 100%;
   height: 100%;
@@ -446,6 +643,8 @@ absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 
 .flip-card-front{
 	padding: 54px 15px;
+  border: 2px solid #fff!important;
+  border-radius: 10px;
 }
 
 .flip-card-front .fa-2x{
@@ -459,7 +658,7 @@ absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 .flip-card-back {
   background-color: #ffb523;
   color: #000;
-  border: 0px;
+  border: 0px solid #ffb523!important;
   transform: rotateY(-180deg);
   border-radius: 8px;
   padding: 15px 10px;
