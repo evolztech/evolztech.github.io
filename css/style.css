@@ -25,6 +25,7 @@ span.ft-text {
     vertical-align: middle;
     padding-left: 8px;
     letter-spacing: 5px;
+    color: #000;
 }
 .ft-logo{
   margin-top: 8px;
@@ -356,10 +357,10 @@ span.ft-text {
 } .img-sec ul{ position:absolute; z-index: 1; margin:0; padding:20px 0px;
 bottom:0; left:50%; transform: translate(-50%); display: block; opacity:0;
 margin-bottom:20px; } .img-sec:after{  content:''; position: absolute;
-background: rgba(0, 0, 0, 0.5); backdrop-filter:blur(4px); box-shadow: 8px 8px
+background: rgba(0, 0, 0, 0.5); backdrop-filter:blur(8px); box-shadow: 8px 8px
 8px #585858; border-radius: 50%; height: 100%; width: 100%; top: 0px; left:
 0px; opacity:0; transition:0.5s; } .img-sec ul li i{ font-size:25px; padding:
-5px; color:#E74C3C; } .img-sec:hover:after{ opacity:1; } .img-sec:hover ul{
+5px; color:#fff; } .img-sec:hover:after{ opacity:1; } .img-sec:hover ul{
 opacity:1; } .instagram{ height: 22px; width: 22px; margin-top: -20%; } /* Our
 Team CSS Ends here */ .text-light{ font-weight: 300; } /* Contact Us CSS
 Starts Here */ #contactUs{ background-color: #222629; color: #fff; }
@@ -458,6 +459,7 @@ absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-left:
 .flip-card-back {
   background-color: #ffb523;
   color: #000;
+  border: 0px;
   transform: rotateY(-180deg);
   border-radius: 8px;
   padding: 15px 10px;
